@@ -1,5 +1,5 @@
 import {useState} from "react"
-
+import './test.css'
 
 function Test(){
 
@@ -23,7 +23,7 @@ function Test(){
     }
     return (
         <>
-        <ul>
+        <ul className="addFeature">
               {items.map( (it) => {
                 return(<li>{it}</li>)
                 })}
