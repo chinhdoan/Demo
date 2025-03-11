@@ -25,7 +25,7 @@ function Test(){
         <>
         <ul className="addFeature">
               {items.map( (it) => {
-                return(<li>{it}</li>)
+                return(<li className="change">{it}</li>)
                 })}
         </ul>
         <input type="text" id="lname" name="lname" onChange={handleChange}></input><br/><br/>
