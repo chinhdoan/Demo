@@ -30,7 +30,8 @@ function Test(){
         </ul>
         <input type="text" id="lname" name="lname" onChange={handleChange}></input><br/><br/>
         <button onClick={addItem}>Add new</button>
-<button onClick={addItem}>Edit</button>
+        <button onClick={addItem}>Edit</button>
+        <button onClick={addItem}>clear</button>
         </>
     )
     
